@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:ruststation.helloWorld"
+		"onCommand:ruststation.Home"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "ruststation.helloWorld",
-				"title": "Hello World"
+				"command": "ruststation.Home",
+				"title": "Go to Rust Station home page"
 			}
 		]
 	},

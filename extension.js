@@ -10,11 +10,8 @@ const vscode = require('vscode');
  */
 function activate(context) {
 
-	let disposable = vscode.commands.registerCommand('ruststation.helloWorld', function () {
-		// The code you place here will be executed every time your command is executed
-
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from RustStation!');
+	let disposable = vscode.commands.registerCommand('ruststation.Home', function () {
+		vscode.window.showInformationMessage('Welcome to your Rust Station controll panel');
 	});
 
 	context.subscriptions.push(disposable);
